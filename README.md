@@ -8,7 +8,8 @@ n/a
 ## Usage
 
 ```bash
-Open/Run "generate.bat" file
+1. Copy the files : generate.bat and tree2html.bat in a folder
+2. Open/Run "generate.bat" file
 ```
 
 ## Contributing
