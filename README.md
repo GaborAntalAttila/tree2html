@@ -5,11 +5,14 @@ Batchfiles for windows system that generate a tree view with search, selectable 
 ## Installation
 n/a
 
+## Information
+!! DO NOT RENAME THE tree2html.bat file !!
+
 ## Usage
 
 ```bash
-1. Copy the files : generate.bat and tree2html.bat in a folder
-2. Open/Run "generate.bat" file
+1. Copy tree2html.bat in a specific folder
+2. Open/Run "tree2html.bat" file
 ```
 
 ## Contributing
