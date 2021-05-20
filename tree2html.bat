@@ -24,9 +24,12 @@ function recurse(path) {
         contents.push(recurse(fc.item()));
     }
 
-    for (var fc = new Enumerator(dir.Files); !fc.atEnd(); fc.moveNext())
-        contents.push({name: fso.GetFileName(fc.item()), file:"file", path: fc.item()});
-    
+    for (var fc = new Enumerator(dir.Files); !fc.atEnd(); fc.moveNext()){
+        if(fso.GetFileName(fc.item()) != "tree2html.bat"){
+            contents.push({name: fso.GetFileName(fc.item()), file:"file", path: fc.item()});
+        }
+    }
+
 	var obj = {};
     obj[dir] = 0;
 	var result;
